@@ -1,8 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public interface IInteractable
+namespace  Interfaces
 {
-    public void Interact();
+    public interface IInteractable
+    {
+        public void Interact();
+    }
 }
+
+
+
